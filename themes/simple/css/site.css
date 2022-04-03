@@ -1,0 +1,32 @@
+/* 
+    Created on : 3 Apr 2022, 11:51:53
+    Author     : stuartmillington
+*/
+body {
+    background: url("/themes/simple/images/background1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+.main {
+    opacity: 75%;
+    background: #fff;
+    color: #000000;
+}
+.footer {
+    opacity: 50%;
+    color: #999;
+    background: #ededed;
+    padding: 10px 0;
+}
+
+/*
+    CSS for quadratic sover
+*/
+#NOS {
+  display: none;	
+}
+#answers {
+    display: block;
+    clear: left;
+}

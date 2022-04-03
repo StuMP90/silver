@@ -1,0 +1,8 @@
+/silverstripe-cache/
+/.env
+/vendor/
+/_resources/
+/public/_resources/
+.env
+.DS_Store
+nbproject
