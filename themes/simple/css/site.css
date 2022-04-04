@@ -19,14 +19,3 @@ body {
     background: #ededed;
     padding: 10px 0;
 }
-
-/*
-    CSS for quadratic sover
-*/
-#NOS {
-  display: none;	
-}
-#answers {
-    display: block;
-    clear: left;
-}
