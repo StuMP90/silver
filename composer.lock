@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbae8114f996d4eb8d089d2fcc8358d6",
+    "content-hash": "9fa0229fc555eaec1f102e15d7588771",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -721,6 +721,62 @@
                 }
             ],
             "time": "2022-03-20T21:55:58+00:00"
+        },
+        {
+            "name": "innoweb/silverstripe-page-icons",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xini/silverstripe-page-icons.git",
+                "reference": "ea19e653060e3a14abf6187f43485753ca2a3961"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xini/silverstripe-page-icons/zipball/ea19e653060e3a14abf6187f43485753ca2a3961",
+                "reference": "ea19e653060e3a14abf6187f43485753ca2a3961",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "silverstripe/cms": "^4.0",
+                "silverstripe/vendor-plugin": "^1.0"
+            },
+            "replace": {
+                "fromholdio/silverstripe-page-icons": "self.version"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Thoma",
+                    "homepage": "https://innoweb.com.au"
+                },
+                {
+                    "name": "Luke Fromhold",
+                    "homepage": "https://innoweb.com.au"
+                }
+            ],
+            "description": "A simple library of SVG page type icons for enhancing your SilverStripe CMS interface.",
+            "homepage": "https://github.com/xini/silverstripe-page-icons",
+            "keywords": [
+                "cms",
+                "icons",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/xini/silverstripe-page-icons/issues",
+                "source": "https://github.com/xini/silverstripe-page-icons/tree/2.1.5"
+            },
+            "time": "2022-01-10T04:11:00+00:00"
         },
         {
             "name": "intervention/image",
@@ -7089,7 +7145,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/recipe-cms": 0,
-        "silverstripe/login-forms": 0
+        "silverstripe/login-forms": 0,
+        "innoweb/silverstripe-page-icons": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
